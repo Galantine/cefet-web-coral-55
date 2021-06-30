@@ -131,9 +131,16 @@ article {
 
 /* EXERCÍCIO 7: o ticket */
 #ticket {
+  position: fixed;
+  left: -89px;
+  transition: left 100ms ease-out; /* propriedade, duração, interpolação */
+  top: 50%;
+  width: 188px;
+  height: 84px;
 }
 
 #ticket:hover {
+  left: 0;
 }
 
 
